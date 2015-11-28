@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AlertDialog">
+        08. <item name="android:fullBright">@android:color/transparent</item>
+        09. <item name="android:fullDark">@android:color/transparent</item>
+        10. <item name="android:topBright">@color/sienna</item>
+        11. <item name="android:topDark">@color/sienna</item>
+        12. <item name="android:centerBright">@color/sienna</item>
+        13. <item name="android:centerDark">@color/sienna</item>
+        14. <item name="android:centerMedium">@color/sienna</item>
+        15. <item name="android:bottomBright">@color/olive</item>
+        16. <item name="android:bottomDark">@color/olive</item>
+        17. <item name="android:bottomMedium">@color/olive</item>
+        18. </style>
+</resources>

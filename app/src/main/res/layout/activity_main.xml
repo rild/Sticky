@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/res_board1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="470dp"
+        android:baselineAligned="false"
+        android:id="@+id/main_Linearlayout_">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/main_Linearlayout"></RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_pallet_pink"
+            android:background="@drawable/res_pallet1"
+            android:alpha="0.8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_pallet_green"
+            android:background="@drawable/res_pallet2"
+            android:alpha="0.8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_pallet_orange"
+            android:background="@drawable/res_pallet3"
+            android:alpha="0.8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_pallet_blue"
+            android:background="@drawable/res_pallet4"
+            android:alpha="0.8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="3dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="clear"
+            android:id="@+id/edit4"
+            android:onClick="clear"
+            android:background="#b4b59364"
+            android:layout_margin="10dp"
+            android:textSize="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="save"
+            android:id="@+id/edit2"
+            android:onClick="save"
+            android:background="#b4b59364"
+            android:layout_margin="10dp"
+            android:textSize="12dp"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="link"
+            android:id="@+id/edit3"
+            android:onClick="link"
+            android:background="#b4b59364"
+            android:layout_margin="10dp"
+            android:textSize="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="activity"
+            android:id="@+id/edit"
+            android:onClick="edit"
+            android:background="#b4b59364"
+            android:layout_margin="10dp"
+            android:textSize="12dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
